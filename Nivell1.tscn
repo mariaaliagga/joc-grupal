@@ -1,6 +1,7 @@
-[gd_scene load_steps=17 format=2]
+[gd_scene load_steps=18 format=2]
 
 [ext_resource path="res://tiles.png" type="Texture" id=1]
+[ext_resource path="res://jugador1.tscn" type="PackedScene" id=2]
 
 [sub_resource type="ConvexPolygonShape2D" id=1]
 points = PoolVector2Array( 0, 0, 18.8, 0, 18.8, 18.5, 0, 18.5 )
@@ -161,3 +162,5 @@ position = Vector2( -6, 0 )
 tile_set = SubResource( 15 )
 cell_size = Vector2( 18, 18 )
 format = 1
+
+[node name="jugador1" parent="." instance=ExtResource( 2 )]
