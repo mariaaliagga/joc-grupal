@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/HIVERN.png-2e48e78bdbc60f462d13e3c8ab534f9b.stex"
+path="res://.import/preview.png-316cbd19aead6094130ae85de2f13958.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://HIVERN.png"
-dest_files=[ "res://.import/HIVERN.png-2e48e78bdbc60f462d13e3c8ab534f9b.stex" ]
+source_file="res://Tiles/preview.png"
+dest_files=[ "res://.import/preview.png-316cbd19aead6094130ae85de2f13958.stex" ]
 
 [params]
 
