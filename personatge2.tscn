@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=15 format=2]
 
 [ext_resource path="res://personatge2.gd" type="Script" id=1]
 [ext_resource path="res://Female adventurer/PNG/Poses/character_femaleAdventurer_walk0.png" type="Texture" id=2]
@@ -9,9 +9,17 @@
 [ext_resource path="res://Female adventurer/PNG/Poses/character_femaleAdventurer_walk7.png" type="Texture" id=7]
 [ext_resource path="res://Female adventurer/PNG/Poses/character_femaleAdventurer_walk3.png" type="Texture" id=8]
 [ext_resource path="res://Female adventurer/PNG/Poses/character_femaleAdventurer_walk4.png" type="Texture" id=9]
+[ext_resource path="res://Female adventurer/PNG/Poses/character_femaleAdventurer_run1.png" type="Texture" id=10]
+[ext_resource path="res://Female adventurer/PNG/Poses/character_femaleAdventurer_run0.png" type="Texture" id=11]
+[ext_resource path="res://Female adventurer/PNG/Poses/character_femaleAdventurer_run2.png" type="Texture" id=12]
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
+"frames": [ ExtResource( 11 ), ExtResource( 10 ), ExtResource( 12 ) ],
+"loop": true,
+"name": "run",
+"speed": 10.0
+}, {
 "frames": [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 9 ), ExtResource( 8 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ) ],
 "loop": true,
 "name": "walk",
@@ -26,7 +34,7 @@ script = ExtResource( 1 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 frames = SubResource( 1 )
-animation = "walk"
+animation = "run"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2( -2.5, 14.5 )

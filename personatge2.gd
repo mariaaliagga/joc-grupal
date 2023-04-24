@@ -30,5 +30,5 @@ func _process(delta):
 	anima(velocitat)
 	
 func anima(velocitat):
-	$AnimatedSprite.play("walk")
+	$AnimatedSprite.play("run")
 	$AnimatedSprite.flip_h = false
