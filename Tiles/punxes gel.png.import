@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/punxes gel.png-2a2da17575746a5565d4ce6ac5750029.stex"
+path="res://.import/punxes gel.png-0a47ba057bfa87ae2ce2bf9e20b975bd.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://punxes gel.png"
-dest_files=[ "res://.import/punxes gel.png-2a2da17575746a5565d4ce6ac5750029.stex" ]
+source_file="res://Tiles/punxes gel.png"
+dest_files=[ "res://.import/punxes gel.png-0a47ba057bfa87ae2ce2bf9e20b975bd.stex" ]
 
 [params]
 
