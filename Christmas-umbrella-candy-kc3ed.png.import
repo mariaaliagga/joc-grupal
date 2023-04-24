@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/sample.png-e83d904df67be35a3470a03c20e2b3c2.stex"
+path="res://.import/Christmas-umbrella-candy-kc3ed.png-25c7cbee28e2fe930556309d4761b074.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sample.png"
-dest_files=[ "res://.import/sample.png-e83d904df67be35a3470a03c20e2b3c2.stex" ]
+source_file="res://Christmas-umbrella-candy-kc3ed.png"
+dest_files=[ "res://.import/Christmas-umbrella-candy-kc3ed.png-25c7cbee28e2fe930556309d4761b074.stex" ]
 
 [params]
 
