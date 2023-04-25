@@ -12,7 +12,7 @@ var salt :=Vector2.UP * 500
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	pass
+	position = Vector2(0,0)
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -32,3 +32,8 @@ func _process(delta):
 func anima(velocitat):
 	$AnimatedSprite.play("run")
 	$AnimatedSprite.flip_h = false
+
+
+
+func _on_aigua_body_entered(body):
+	position = Vector2(0,0)
