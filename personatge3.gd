@@ -1,8 +1,8 @@
 extends KinematicBody2D
 
-var velocitat := 200
+var velocitat := 300
 var moviment := Vector2.ZERO
-var gravetat := Vector2.DOWN * 900
+var gravetat := Vector2.DOWN * 950
 var salt :=Vector2.UP * 500
 
 # Declare member variables here. Examples:
@@ -12,7 +12,7 @@ var salt :=Vector2.UP * 500
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	position = Vector2(0,0)
+	pass
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -32,8 +32,3 @@ func _process(delta):
 func anima(velocitat):
 	$AnimatedSprite.play("run")
 	$AnimatedSprite.flip_h = false
-
-
-
-func _on_aigua_body_entered(body):
-	position = Vector2(0,0)
