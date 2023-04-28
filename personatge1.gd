@@ -2,8 +2,8 @@ extends KinematicBody2D
 
 var velocitat := 200
 var moviment := Vector2.ZERO
-var gravetat := Vector2.DOWN * 1000
-var salt :=Vector2.UP * 400
+var gravetat := Vector2.DOWN * 1700
+var salt :=Vector2.UP * 500
 
 # Declare member variables here. Examples:
 # var a = 2
@@ -23,7 +23,7 @@ func _process(delta):
 	moviment.x = velocitat
 	if Input.is_action_just_pressed("ves_amunt") and is_on_floor():
 		moviment += salt
-		rotation_degrees += 90
+		
 	
 	moviment = move_and_slide(moviment, Vector2.UP)
 	
