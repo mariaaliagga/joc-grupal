@@ -24,6 +24,10 @@ func _process(delta):
 	if Input.is_action_just_pressed("ves_amunt") and is_on_floor():
 		moviment += salt
 		
+	if is_on_floor():
+		velocitat = 500
+	else:
+		velocitat = 400
 	
 	moviment = move_and_slide(moviment, Vector2.UP)
 	
@@ -33,7 +37,11 @@ func anima(velocitat):
 	$AnimatedSprite.play("run")
 	$AnimatedSprite.flip_h = false
 
-
+func agafa_candy():
+	# contador i q es moguiiii
+	pass 
+	
 
 func _on_aigua_body_entered(body):
 	position = Vector2(0,0)
+
