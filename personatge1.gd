@@ -1,8 +1,8 @@
 extends KinematicBody2D
 
-var velocitat := 200
+var velocitat := 145
 var moviment := Vector2.ZERO
-var gravetat := Vector2.DOWN * 1700
+var gravetat := Vector2.DOWN * 1600
 var salt :=Vector2.UP * 500
 
 # Declare member variables here. Examples:
