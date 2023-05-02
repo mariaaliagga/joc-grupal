@@ -32,3 +32,5 @@ func _process(delta):
 func anima(velocitat):
 	$AnimatedSprite.play("run")
 	$AnimatedSprite.flip_h = false
+#func agafa_halloween():
+	#contador
