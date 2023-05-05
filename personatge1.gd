@@ -28,7 +28,15 @@ func _process(delta):
 	moviment = move_and_slide(moviment, Vector2.UP)
 	
 	anima(velocitat)
+
 	
 func anima(velocitat):
 	$AnimatedSprite.play("run")
 	$AnimatedSprite.flip_h = false
+
+
+func _on_Punxes_body_entered(body):
+	position = Vector2(0,570)
+
+func agafa_ou():
+	pass
