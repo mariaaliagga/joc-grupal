@@ -13,7 +13,7 @@
 [ext_resource path="res://Zombie/Poses/character_zombie_walk6.png" type="Texture" id=11]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 88.5, 101.5 )
+extents = Vector2( 88.5, 110.75 )
 
 [sub_resource type="SpriteFrames" id=2]
 animations = [ {
@@ -35,6 +35,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 0, 9.25 )
 shape = SubResource( 1 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
@@ -43,3 +44,4 @@ animation = "run"
 
 [node name="Camera2D" type="Camera2D" parent="."]
 current = true
+zoom = Vector2( 3, 3 )
