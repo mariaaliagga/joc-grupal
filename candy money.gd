@@ -19,4 +19,4 @@ func _ready():
 
 func _on_halloween_candy_body_shape_entered(body_rid, body, body_shape_index, local_shape_index):
 	queue_free()
-	body.agafa_halloween()
+	#body.agafa_halloween()
