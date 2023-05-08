@@ -17,5 +17,6 @@ func _ready():
 
 
 func _on_Area2D_body_entered(body):
-	queue_free()
-	body.agafa_candy()
+	if body.is_in_group('Personatge'):
+		body.agafa_candy()
+		queue_free()

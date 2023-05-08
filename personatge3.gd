@@ -4,7 +4,7 @@ var velocitat := 900
 var moviment := Vector2.ZERO
 var gravetat := Vector2.DOWN * 3000
 var salt :=Vector2.UP * 1500
-
+var caramels = 0
 # Declare member variables here. Examples:
 # var a = 2
 # var b = "text"
@@ -32,5 +32,16 @@ func _process(delta):
 func anima(velocitat):
 	$AnimatedSprite.play("run")
 	$AnimatedSprite.flip_h = false
-#func agafa_halloween():
+#	personatge3= KinematicBody2D
+func agafa_candy():
+	caramels += 1
+	Global.LabelCaramels.text = str(caramels)
+	
+
+	
+
 	#contador
+
+
+func _on_matar_halloween_body_entered(body):
+	get_tree().reload_current_scene()

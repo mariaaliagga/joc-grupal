@@ -38,10 +38,16 @@ func anima(velocitat):
 	$AnimatedSprite.flip_h = false
 
 func agafa_candy():
-	# contador i q es moguiiii
+	# contador 
 	
 	pass
 
 func _on_aigua_body_entered(body):
-	position = Vector2(0,0)
+	get_tree().reload_current_scene()
+	
 
+
+
+
+func _on_penguin_body_entered(body):
+	get_tree().reload_current_scene()

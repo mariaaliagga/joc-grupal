@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://halloween candy.png" type="Texture" id=1]
-[ext_resource path="res://candy money.gd" type="Script" id=2]
+[ext_resource path="res://Cristmas candy.gd" type="Script" id=2]
 
 [sub_resource type="RectangleShape2D" id=1]
 
@@ -52,7 +52,7 @@ tracks/1/keys = {
 "times": PoolRealArray( 0, 0.3, 0.7, 1 )
 }
 
-[node name="halloween candy" type="Area2D"]
+[node name="halloween candy" type="Area2D" groups=["Personatge"]]
 script = ExtResource( 2 )
 
 [node name="Sprite" type="Sprite" parent="."]
@@ -67,5 +67,5 @@ root_node = NodePath("../Sprite")
 anims/RESET = SubResource( 2 )
 "anims/puja i baixa" = SubResource( 3 )
 
-[connection signal="body_shape_entered" from="." to="." method="_on_halloween_candy_body_shape_entered"]
+[connection signal="body_entered" from="." to="." method="_on_halloween_candy_body_entered"]
 [connection signal="child_entered_tree" from="Sprite" to="." method="_on_Sprite_child_entered_tree"]
