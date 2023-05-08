@@ -36,7 +36,7 @@ func anima(velocitat):
 
 
 func _on_Punxes_body_entered(body):
-	position = Vector2(0,570)
+	get_tree().reload_current_scene()
 
 func agafa_ou():
 	pass

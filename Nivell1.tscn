@@ -72,7 +72,6 @@ points = PoolVector2Array( 0, -42, 18, -42, 18, -42, 0, -42 )
 points = PoolVector2Array( 0, 0, 18, 0, 18, 18, 0, 18 )
 
 [sub_resource type="StreamTexture" id=49]
-flags = 4
 load_path = "res://.import/primavera.png-9de90dad64fc679714b8edde1a5cd6e5.stex"
 
 [sub_resource type="ConvexPolygonShape2D" id=31]
@@ -808,7 +807,76 @@ position = Vector2( 472, 0 )
 position = Vector2( 504, 0 )
 
 [node name="ous pascua" parent="." instance=ExtResource( 4 )]
-position = Vector2( 127, 1079 )
+position = Vector2( 183, 1079 )
+
+[node name="ous pascua2" parent="ous pascua" instance=ExtResource( 4 )]
+position = Vector2( 248, -40 )
+
+[node name="ous pascua3" parent="ous pascua" instance=ExtResource( 4 )]
+position = Vector2( 608, -112 )
+
+[node name="ous pascua4" parent="ous pascua" instance=ExtResource( 4 )]
+position = Vector2( 728, -32 )
+
+[node name="ous pascua5" parent="ous pascua" instance=ExtResource( 4 )]
+position = Vector2( 968, -48 )
+
+[node name="ous pascua6" parent="ous pascua" instance=ExtResource( 4 )]
+position = Vector2( 1152, -112 )
+
+[node name="ous pascua7" parent="ous pascua" instance=ExtResource( 4 )]
+position = Vector2( 1440, -32 )
+
+[node name="ous pascua8" parent="ous pascua" instance=ExtResource( 4 )]
+position = Vector2( 1648, -72 )
+
+[node name="ous pascua9" parent="ous pascua" instance=ExtResource( 4 )]
+position = Vector2( 2008, -72 )
+
+[node name="ous pascua10" parent="ous pascua" instance=ExtResource( 4 )]
+position = Vector2( 2144, -32 )
+
+[node name="ous pascua11" parent="ous pascua" instance=ExtResource( 4 )]
+position = Vector2( 2280, -16 )
+
+[node name="ous pascua12" parent="ous pascua" instance=ExtResource( 4 )]
+position = Vector2( 2672, -56 )
+
+[node name="ous pascua13" parent="ous pascua" instance=ExtResource( 4 )]
+position = Vector2( 2800, -112 )
+
+[node name="ous pascua14" parent="ous pascua" instance=ExtResource( 4 )]
+position = Vector2( 2968, -128 )
+
+[node name="ous pascua15" parent="ous pascua" instance=ExtResource( 4 )]
+position = Vector2( 3040, -112 )
+
+[node name="ous pascua16" parent="ous pascua" instance=ExtResource( 4 )]
+position = Vector2( 3216, -56 )
+
+[node name="ous pascua17" parent="ous pascua" instance=ExtResource( 4 )]
+position = Vector2( 3368, -40 )
+
+[node name="ous pascua18" parent="ous pascua" instance=ExtResource( 4 )]
+position = Vector2( 3592, -64 )
+
+[node name="ous pascua19" parent="ous pascua" instance=ExtResource( 4 )]
+position = Vector2( 3800, -88 )
+
+[node name="ous pascua20" parent="ous pascua" instance=ExtResource( 4 )]
+position = Vector2( 4056, -48 )
+
+[node name="ous pascua21" parent="ous pascua" instance=ExtResource( 4 )]
+position = Vector2( 4216, -48 )
+
+[node name="ous pascua22" parent="ous pascua" instance=ExtResource( 4 )]
+position = Vector2( 4608, -56 )
+
+[node name="ous pascua23" parent="ous pascua" instance=ExtResource( 4 )]
+position = Vector2( 4792, -96 )
+
+[node name="ous pascua24" parent="ous pascua" instance=ExtResource( 4 )]
+position = Vector2( 4992, -136 )
 
 [connection signal="body_entered" from="Punxes" to="KinematicBody2D" method="_on_Punxes_body_entered"]
 [connection signal="body_entered" from="Punxes/Punxes2" to="KinematicBody2D" method="_on_Punxes_body_entered"]
