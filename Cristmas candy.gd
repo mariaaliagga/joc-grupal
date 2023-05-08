@@ -15,8 +15,6 @@ func _ready():
 #	pass
 
 
-
-
-func _on_halloween_candy_body_shape_entered(body_rid, body, body_shape_index, local_shape_index):
+func _on_halloween_candy_body_entered(body):
+	body.agafa_candy()
 	queue_free()
-	#body.agafa_halloween()
