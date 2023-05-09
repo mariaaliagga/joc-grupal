@@ -44,4 +44,5 @@ func agafa_candy():
 
 
 func _on_matar_halloween_body_entered(body):
-	get_tree().reload_current_scene()
+	if body.is_in_group("Personatge"):
+		get_tree().reload_current_scene() 

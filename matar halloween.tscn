@@ -3,15 +3,15 @@
 [ext_resource path="res://bg negre halloween.png" type="Texture" id=1]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 10178, 8210.5 )
+extents = Vector2( 21760, 10880 )
 
 [node name="matar halloween" type="Area2D"]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( 30096, 3800 )
+position = Vector2( 50084, 20647 )
 shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="."]
-position = Vector2( 30096, 4540 )
-scale = Vector2( 70.6633, 107.167 )
+position = Vector2( 49444, 19687.3 )
+scale = Vector2( 157.087, 145.527 )
 texture = ExtResource( 1 )
