@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=14 format=2]
 
 [ext_resource path="res://Tiles/HIVERN.png" type="Texture" id=1]
 [ext_resource path="res://Tiles/punxes gel.png" type="Texture" id=2]
@@ -6,6 +6,8 @@
 [ext_resource path="res://aigua.tscn" type="PackedScene" id=4]
 [ext_resource path="res://candy.tscn" type="PackedScene" id=5]
 [ext_resource path="res://penguin.tscn" type="PackedScene" id=6]
+[ext_resource path="res://hermosas-pancartas-horizontales-invierno-abetos-nevados-paisaje-hadas-dia-noche_1284-50016 (1) (1).png" type="Texture" id=7]
+[ext_resource path="res://images (2).png" type="Texture" id=8]
 
 [sub_resource type="ConvexPolygonShape2D" id=1]
 points = PoolVector2Array( 0, 0, 64, 0, 64, 65, 0, 65 )
@@ -163,6 +165,26 @@ points = PoolVector2Array( 3, 2, 74, 4, 61, 40, 52, 12, 38, 38, 25, 13, 16, 37, 
 
 [node name="Nivell2" type="Node2D"]
 position = Vector2( 0, 8 )
+
+[node name="bloc blau" type="Sprite" parent="."]
+position = Vector2( 3424, 744 )
+scale = Vector2( 60, 60 )
+texture = ExtResource( 8 )
+
+[node name="fons" type="Sprite" parent="."]
+position = Vector2( 1200, -472 )
+scale = Vector2( 4.162, 4.08502 )
+texture = ExtResource( 7 )
+
+[node name="Sprite2" type="Sprite" parent="fons"]
+position = Vector2( 624.508, 3.75619 )
+scale = Vector2( 1, 1 )
+texture = ExtResource( 7 )
+
+[node name="Sprite3" type="Sprite" parent="fons"]
+position = Vector2( 1249.43, 15.2945 )
+scale = Vector2( 1, 1 )
+texture = ExtResource( 7 )
 
 [node name="TileMap" type="TileMap" parent="."]
 position = Vector2( 12138, 237 )

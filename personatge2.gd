@@ -43,11 +43,13 @@ func agafa_candy():
 	pass
 
 func _on_aigua_body_entered(body):
-	get_tree().reload_current_scene()
+	if body.is_in_group("Personatge"):
+		get_tree().reload_current_scene()
 	
 
 
 
 
 func _on_penguin_body_entered(body):
-	get_tree().reload_current_scene()
+	if body.is_in_group("Personatge"):
+		get_tree().reload_current_scene()
