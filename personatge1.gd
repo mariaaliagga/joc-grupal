@@ -36,7 +36,13 @@ func anima(velocitat):
 
 
 func _on_Punxes_body_entered(body):
-	get_tree().reload_current_scene()
+	if body.is_in_group('Personatge'):
+		get_tree().reload_current_scene()
 
 func agafa_ou():
 	pass
+
+
+func _on_carnvora_body_entered(body):
+	if body.is_in_group('Personatge'):
+		get_tree().reload_current_scene()
