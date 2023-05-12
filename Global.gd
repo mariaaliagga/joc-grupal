@@ -2,6 +2,7 @@ extends Node
 
 
 var LabelCaramels : Label
+var Jugador : KinematicBody2D
 
 func _ready():
 	pass # Replace with function body.

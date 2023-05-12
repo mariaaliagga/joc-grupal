@@ -74,7 +74,6 @@ points = PoolVector2Array( 0, -42, 18, -42, 18, -42, 0, -42 )
 points = PoolVector2Array( 0, 0, 18, 0, 18, 18, 0, 18 )
 
 [sub_resource type="StreamTexture" id=49]
-flags = 4
 load_path = "res://.import/primavera.png-9de90dad64fc679714b8edde1a5cd6e5.stex"
 
 [sub_resource type="ConvexPolygonShape2D" id=31]
@@ -445,12 +444,16 @@ points = PoolVector2Array( 0, 0, 18, 0, 18, 18, 0, 18 )
 position = Vector2( -7, -511 )
 
 [node name="Sprite" type="Sprite" parent="."]
-position = Vector2( 175, 1055 )
-scale = Vector2( 1.08667, 1.22619 )
+position = Vector2( 175, 1023 )
+scale = Vector2( 1.08667, 2.40327 )
 texture = ExtResource( 6 )
 
 [node name="Sprite2" type="Sprite" parent="Sprite"]
 position = Vector2( 279.755, 0 )
+texture = ExtResource( 6 )
+
+[node name="Sprite19" type="Sprite" parent="Sprite"]
+position = Vector2( -294.478, 0 )
 texture = ExtResource( 6 )
 
 [node name="Sprite3" type="Sprite" parent="Sprite"]
@@ -971,11 +974,11 @@ position = Vector2( 4983, 975 )
 [node name="ous pascua24" parent="Ous" instance=ExtResource( 4 )]
 position = Vector2( 5183, 935 )
 
-[node name="carnívora" parent="." instance=ExtResource( 5 )]
+[node name="carnívora" type="Node2D" parent="."]
 position = Vector2( 543, 1087 )
 
-[node name="carnívora2" parent="carnívora" instance=ExtResource( 5 )]
-position = Vector2( 480, 0 )
+[node name="carnívora" parent="carnívora" instance=ExtResource( 5 )]
+position = Vector2( 376, 0 )
 
 [node name="carnívora3" parent="carnívora" instance=ExtResource( 5 )]
 position = Vector2( 904, 0 )
@@ -985,9 +988,6 @@ position = Vector2( 1648, 0 )
 
 [node name="carnívora5" parent="carnívora" instance=ExtResource( 5 )]
 position = Vector2( 1896, 8 )
-
-[node name="carnívora6" parent="carnívora" instance=ExtResource( 5 )]
-position = Vector2( 2328, -120 )
 
 [node name="carnívora7" parent="carnívora" instance=ExtResource( 5 )]
 position = Vector2( 2880, 0 )
@@ -1125,12 +1125,10 @@ position = Vector2( 4552, -96 )
 [connection signal="body_entered" from="Punxes/Punxes28" to="KinematicBody2D" method="_on_Punxes_body_entered"]
 [connection signal="body_entered" from="Punxes/Punxes29" to="KinematicBody2D" method="_on_Punxes_body_entered"]
 [connection signal="body_entered" from="Punxes/Punxes30" to="KinematicBody2D" method="_on_Punxes_body_entered"]
-[connection signal="body_entered" from="carnívora" to="KinematicBody2D" method="_on_carnvora_body_entered"]
-[connection signal="body_entered" from="carnívora/carnívora2" to="KinematicBody2D" method="_on_carnvora_body_entered"]
+[connection signal="body_entered" from="carnívora/carnívora" to="KinematicBody2D" method="_on_carnvora_body_entered"]
 [connection signal="body_entered" from="carnívora/carnívora3" to="KinematicBody2D" method="_on_carnvora_body_entered"]
 [connection signal="body_entered" from="carnívora/carnívora4" to="KinematicBody2D" method="_on_carnvora_body_entered"]
 [connection signal="body_entered" from="carnívora/carnívora5" to="KinematicBody2D" method="_on_carnvora_body_entered"]
-[connection signal="body_entered" from="carnívora/carnívora6" to="KinematicBody2D" method="_on_carnvora_body_entered"]
 [connection signal="body_entered" from="carnívora/carnívora7" to="KinematicBody2D" method="_on_carnvora_body_entered"]
 [connection signal="body_entered" from="carnívora/carnívora8" to="KinematicBody2D" method="_on_carnvora_body_entered"]
 [connection signal="body_entered" from="carnívora/carnívora9" to="KinematicBody2D" method="_on_carnvora_body_entered"]
