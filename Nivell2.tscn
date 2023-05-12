@@ -178,12 +178,10 @@ texture = ExtResource( 7 )
 
 [node name="Sprite2" type="Sprite" parent="fons"]
 position = Vector2( 624.508, 3.75619 )
-scale = Vector2( 1, 1 )
 texture = ExtResource( 7 )
 
 [node name="Sprite3" type="Sprite" parent="fons"]
 position = Vector2( 1249.43, 15.2945 )
-scale = Vector2( 1, 1 )
 texture = ExtResource( 7 )
 
 [node name="TileMap" type="TileMap" parent="."]
