@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/pngegg (1).png-16c22ede7fbd917093d7f240c0a39e3f.stex"
+path="res://.import/diablo.png-6565e0110c223914e367b27c5557c721.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://pngegg (1).png"
-dest_files=[ "res://.import/pngegg (1).png-16c22ede7fbd917093d7f240c0a39e3f.stex" ]
+source_file="res://diablo.png"
+dest_files=[ "res://.import/diablo.png-6565e0110c223914e367b27c5557c721.stex" ]
 
 [params]
 

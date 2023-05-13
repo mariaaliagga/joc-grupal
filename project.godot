@@ -37,6 +37,10 @@ ves_dreta={
  ]
 }
 
+[mono]
+
+project/assembly_name="Joc Grupal"
+
 [physics]
 
 common/enable_pause_aware_picking=true

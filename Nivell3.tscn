@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=2]
+[gd_scene load_steps=21 format=2]
 
 [ext_resource path="res://personatge3.tscn" type="PackedScene" id=1]
 [ext_resource path="res://hallowwen spooky pack.png" type="Texture" id=2]
@@ -11,6 +11,8 @@
 [ext_resource path="res://halloween candy.png" type="Texture" id=9]
 [ext_resource path="res://background 22.jpg" type="Texture" id=10]
 [ext_resource path="res://matar halloween.tscn" type="PackedScene" id=11]
+[ext_resource path="res://fantasmiko.tscn" type="PackedScene" id=12]
+[ext_resource path="res://diablo.tscn" type="PackedScene" id=13]
 
 [sub_resource type="ConvexPolygonShape2D" id=1]
 points = PoolVector2Array( 101, 100, 0, 103, 0, 13, 104, 12 )
@@ -173,12 +175,12 @@ scale = Vector2( 3.762, 3.28333 )
 texture = ExtResource( 10 )
 
 [node name="bg27" type="Sprite" parent="."]
-position = Vector2( 20792, 1264 )
+position = Vector2( 20772, 1260 )
 scale = Vector2( 3.762, 3.28333 )
 texture = ExtResource( 10 )
 
 [node name="bg28" type="Sprite" parent="."]
-position = Vector2( 17136, 1256 )
+position = Vector2( 17019, 1256 )
 scale = Vector2( 3.762, 3.28333 )
 texture = ExtResource( 10 )
 
@@ -302,7 +304,7 @@ collision/safe_margin = 0.001
 position = Vector2( 1832, 432 )
 
 [node name="halloween candy2" parent="." instance=ExtResource( 3 )]
-position = Vector2( 728, 424 )
+position = Vector2( 767, 280 )
 
 [node name="halloween candy3" parent="." instance=ExtResource( 3 )]
 position = Vector2( -9624, 2496 )
@@ -326,10 +328,10 @@ position = Vector2( -47192, 600 )
 position = Vector2( -45808, 400 )
 
 [node name="halloween candy21" parent="." instance=ExtResource( 3 )]
-position = Vector2( -43496, 328 )
+position = Vector2( -43517, 146 )
 
 [node name="halloween candy22" parent="." instance=ExtResource( 3 )]
-position = Vector2( -40224, 512 )
+position = Vector2( -40817, 453 )
 
 [node name="halloween candy23" parent="." instance=ExtResource( 3 )]
 position = Vector2( -38896, 456 )
@@ -392,13 +394,13 @@ position = Vector2( 19872, 1520 )
 position = Vector2( 19088, 1696 )
 
 [node name="halloween candy35" parent="." instance=ExtResource( 3 )]
-position = Vector2( 17424, 2112 )
+position = Vector2( 17685, 2094 )
 
 [node name="halloween candy36" parent="." instance=ExtResource( 3 )]
 position = Vector2( 16704, 1936 )
 
 [node name="halloween candy31" parent="." instance=ExtResource( 3 )]
-position = Vector2( 14400, 1456 )
+position = Vector2( 14331, 1438 )
 
 [node name="halloween candy32" parent="." instance=ExtResource( 3 )]
 position = Vector2( 12752, 848 )
@@ -413,7 +415,7 @@ position = Vector2( 7104, 1744 )
 position = Vector2( 8752, 1488 )
 
 [node name="halloween candy28" parent="." instance=ExtResource( 3 )]
-position = Vector2( 5120, 1504 )
+position = Vector2( 4626, 1393 )
 
 [node name="halloween candy29" parent="." instance=ExtResource( 3 )]
 position = Vector2( 3376, 1216 )
@@ -439,4 +441,92 @@ position = Vector2( 32, 24 )
 scale = Vector2( 0.01875, 0.0227917 )
 texture = ExtResource( 9 )
 
+[node name="Fantasma" parent="." instance=ExtResource( 12 )]
+position = Vector2( -31497, 1854 )
+
+[node name="Fantasma2" parent="." instance=ExtResource( 12 )]
+position = Vector2( -32947, 166.999 )
+
+[node name="Fantasma3" parent="." instance=ExtResource( 12 )]
+position = Vector2( -28343, 2979 )
+
+[node name="Fantasma7" parent="." instance=ExtResource( 12 )]
+position = Vector2( -15779, 1346 )
+
+[node name="Fantasma8" parent="." instance=ExtResource( 12 )]
+position = Vector2( -13075, 1858 )
+
+[node name="Fantasma9" parent="." instance=ExtResource( 12 )]
+position = Vector2( -8267, 1300 )
+
+[node name="Fantasma10" parent="." instance=ExtResource( 12 )]
+position = Vector2( 6619, 190 )
+
+[node name="Fantasma11" parent="." instance=ExtResource( 12 )]
+position = Vector2( 14254, 137 )
+
+[node name="Fantasma12" parent="." instance=ExtResource( 12 )]
+position = Vector2( 18664, 222 )
+
+[node name="diablo2" parent="." instance=ExtResource( 13 )]
+position = Vector2( -39891, 517 )
+
+[node name="diablo3" parent="." instance=ExtResource( 13 )]
+position = Vector2( -24428, 2639 )
+
+[node name="diablo4" parent="." instance=ExtResource( 13 )]
+position = Vector2( -21778, 2817 )
+
+[node name="diablo5" parent="." instance=ExtResource( 13 )]
+position = Vector2( -18922, 2804 )
+
+[node name="diablo6" parent="." instance=ExtResource( 13 )]
+position = Vector2( -15082, 2710 )
+
+[node name="diablo7" parent="." instance=ExtResource( 13 )]
+position = Vector2( -10747, 2518 )
+
+[node name="diablo8" parent="." instance=ExtResource( 13 )]
+position = Vector2( -9038, 2523 )
+
+[node name="diablo9" parent="." instance=ExtResource( 13 )]
+position = Vector2( -3817, 922 )
+
+[node name="diablo10" parent="." instance=ExtResource( 13 )]
+position = Vector2( -2660, 916 )
+
+[node name="diablo11" parent="." instance=ExtResource( 13 )]
+position = Vector2( 768, 419 )
+
+[node name="diablo12" parent="." instance=ExtResource( 13 )]
+position = Vector2( 4621, 1522 )
+
+[node name="diablo13" parent="." instance=ExtResource( 13 )]
+position = Vector2( 14483, 1519 )
+
+[node name="diablo14" parent="." instance=ExtResource( 13 )]
+position = Vector2( 17267, 2115 )
+
 [connection signal="body_entered" from="matar halloween" to="KinematicBody2D" method="_on_matar_halloween_body_entered"]
+[connection signal="body_entered" from="Fantasma" to="KinematicBody2D" method="_on_Fantasma_body_entered"]
+[connection signal="body_entered" from="Fantasma2" to="KinematicBody2D" method="_on_Fantasma_body_entered"]
+[connection signal="body_entered" from="Fantasma3" to="KinematicBody2D" method="_on_Fantasma_body_entered"]
+[connection signal="body_entered" from="Fantasma7" to="KinematicBody2D" method="_on_Fantasma_body_entered"]
+[connection signal="body_entered" from="Fantasma8" to="KinematicBody2D" method="_on_Fantasma_body_entered"]
+[connection signal="body_entered" from="Fantasma9" to="KinematicBody2D" method="_on_Fantasma_body_entered"]
+[connection signal="body_entered" from="Fantasma10" to="KinematicBody2D" method="_on_Fantasma_body_entered"]
+[connection signal="body_entered" from="Fantasma11" to="KinematicBody2D" method="_on_Fantasma_body_entered"]
+[connection signal="body_entered" from="Fantasma12" to="KinematicBody2D" method="_on_Fantasma_body_entered"]
+[connection signal="body_entered" from="diablo2" to="KinematicBody2D" method="_on_diablo_body_entered"]
+[connection signal="body_entered" from="diablo3" to="KinematicBody2D" method="_on_diablo_body_entered"]
+[connection signal="body_entered" from="diablo4" to="KinematicBody2D" method="_on_diablo_body_entered"]
+[connection signal="body_entered" from="diablo5" to="KinematicBody2D" method="_on_diablo_body_entered"]
+[connection signal="body_entered" from="diablo6" to="KinematicBody2D" method="_on_diablo_body_entered"]
+[connection signal="body_entered" from="diablo7" to="KinematicBody2D" method="_on_diablo_body_entered"]
+[connection signal="body_entered" from="diablo8" to="KinematicBody2D" method="_on_diablo_body_entered"]
+[connection signal="body_entered" from="diablo9" to="KinematicBody2D" method="_on_diablo_body_entered"]
+[connection signal="body_entered" from="diablo10" to="KinematicBody2D" method="_on_diablo_body_entered"]
+[connection signal="body_entered" from="diablo11" to="KinematicBody2D" method="_on_diablo_body_entered"]
+[connection signal="body_entered" from="diablo12" to="KinematicBody2D" method="_on_diablo_body_entered"]
+[connection signal="body_entered" from="diablo13" to="KinematicBody2D" method="_on_diablo_body_entered"]
+[connection signal="body_entered" from="diablo14" to="KinematicBody2D" method="_on_diablo_body_entered"]
