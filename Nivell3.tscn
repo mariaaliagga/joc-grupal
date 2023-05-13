@@ -160,37 +160,37 @@ scale = Vector2( 3.857, 3.26218 )
 texture = ExtResource( 10 )
 
 [node name="bg22" type="Sprite" parent="."]
-position = Vector2( 5752, 1224 )
+position = Vector2( 5634, 1075 )
 scale = Vector2( 3.762, 3.28333 )
 texture = ExtResource( 10 )
 
 [node name="bg25" type="Sprite" parent="."]
-position = Vector2( 13288, 1256 )
+position = Vector2( 13142, 1079 )
 scale = Vector2( 3.762, 3.28333 )
 texture = ExtResource( 10 )
 
 [node name="bg29" type="Sprite" parent="."]
-position = Vector2( 24520, 1264 )
+position = Vector2( 24385, 1076 )
 scale = Vector2( 3.762, 3.28333 )
 texture = ExtResource( 10 )
 
 [node name="bg27" type="Sprite" parent="."]
-position = Vector2( 20772, 1260 )
+position = Vector2( 20626, 1083 )
 scale = Vector2( 3.762, 3.28333 )
 texture = ExtResource( 10 )
 
 [node name="bg28" type="Sprite" parent="."]
-position = Vector2( 17019, 1256 )
+position = Vector2( 16873, 1079 )
 scale = Vector2( 3.762, 3.28333 )
 texture = ExtResource( 10 )
 
 [node name="bg26" type="Sprite" parent="."]
-position = Vector2( 9512, 1280 )
+position = Vector2( 9384, 1072 )
 scale = Vector2( 3.762, 3.28333 )
 texture = ExtResource( 10 )
 
 [node name="bg23" type="Sprite" parent="."]
-position = Vector2( 2040, 1200 )
+position = Vector2( 1925, 1077 )
 scale = Vector2( 3.762, 3.28333 )
 texture = ExtResource( 10 )
 
@@ -203,15 +203,15 @@ texture = ExtResource( 10 )
 position = Vector2( -81184, -5536 )
 
 [node name="matar halloween2" parent="." instance=ExtResource( 11 )]
-position = Vector2( -34016, -5496 )
+position = Vector2( -33941, -5485 )
 
 [node name="Bg final abans de underground" type="Sprite" parent="."]
-position = Vector2( -34184, 224 )
+position = Vector2( -34130, -30.7039 )
 scale = Vector2( 8.4793, 7.29352 )
 texture = ExtResource( 4 )
 
 [node name="Bg sprite" type="Sprite" parent="."]
-position = Vector2( -52976, 395 )
+position = Vector2( -52922, 140.296 )
 scale = Vector2( 8.4793, 7.02116 )
 texture = ExtResource( 4 )
 
@@ -256,7 +256,7 @@ scale = Vector2( 2.03021, 2.22964 )
 texture = ExtResource( 5 )
 
 [node name="Fons negre" type="Sprite" parent="."]
-position = Vector2( -45840, 5312 )
+position = Vector2( -45840, 5096 )
 scale = Vector2( 63.28, 45.5417 )
 texture = ExtResource( 6 )
 
@@ -275,18 +275,23 @@ position = Vector2( -8328, 6608 )
 scale = Vector2( 63.28, 45.5417 )
 texture = ExtResource( 6 )
 
+[node name="Fons negre5" type="Sprite" parent="."]
+position = Vector2( -16955, -2653 )
+scale = Vector2( 63.28, 45.5417 )
+texture = ExtResource( 6 )
+
 [node name="Sprite" type="Sprite" parent="."]
-position = Vector2( -48264, 336 )
+position = Vector2( -48210, 81.2961 )
 scale = Vector2( 8.4793, 7.02116 )
 texture = ExtResource( 4 )
 
 [node name="Sprite4" type="Sprite" parent="."]
-position = Vector2( -38864, 257 )
+position = Vector2( -38810, 2.29614 )
 scale = Vector2( 8.4793, 7.02116 )
 texture = ExtResource( 4 )
 
 [node name="Sprite5" type="Sprite" parent="."]
-position = Vector2( -43576, 291 )
+position = Vector2( -43522, 36.2961 )
 scale = Vector2( 8.4793, 7.02116 )
 texture = ExtResource( 4 )
 
