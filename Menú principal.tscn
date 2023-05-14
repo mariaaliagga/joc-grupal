@@ -17,24 +17,24 @@ margin_right = 152.0
 margin_bottom = 252.0
 
 [node name="N1" type="Button" parent="VBoxContainer"]
+margin_top = 100.0
 margin_right = 248.0
-margin_bottom = 20.0
 text = "N1: PASCUA"
 
 [node name="N2" type="Button" parent="VBoxContainer"]
-margin_top = 24.0
+margin_top = 200.0
 margin_right = 248.0
-margin_bottom = 44.0
+margin_bottom = 20.0
 text = "N2: NADAL"
 
 [node name="N3" type="Button" parent="VBoxContainer"]
-margin_top = 48.0
+margin_top = 300.0
 margin_right = 248.0
 margin_bottom = 68.0
 text = "N3: HALLOWEEN"
 
 [node name="INSTRUCCIONS" type="Button" parent="VBoxContainer"]
-margin_top = 72.0
+margin_top = 400.0
 margin_right = 248.0
-margin_bottom = 92.0
-text = "N3: HALLOWEEN"
+margin_bottom = 100.0
+text = "N3: INSTRUCCIONS"

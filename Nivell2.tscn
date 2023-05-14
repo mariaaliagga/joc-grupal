@@ -1,13 +1,21 @@
+<<<<<<< Updated upstream
 [gd_scene load_steps=14 format=2]
+=======
+[gd_scene load_steps=12 format=2]
+>>>>>>> Stashed changes
 
 [ext_resource path="res://Tiles/HIVERN.png" type="Texture" id=1]
 [ext_resource path="res://Tiles/punxes gel.png" type="Texture" id=2]
 [ext_resource path="res://personatge2.tscn" type="PackedScene" id=3]
 [ext_resource path="res://aigua.tscn" type="PackedScene" id=4]
+<<<<<<< Updated upstream
 [ext_resource path="res://candy.tscn" type="PackedScene" id=5]
 [ext_resource path="res://penguin.tscn" type="PackedScene" id=6]
 [ext_resource path="res://hermosas-pancartas-horizontales-invierno-abetos-nevados-paisaje-hadas-dia-noche_1284-50016 (1) (1).png" type="Texture" id=7]
 [ext_resource path="res://images (2).png" type="Texture" id=8]
+=======
+[ext_resource path="res://backgroundForest.png" type="Texture" id=5]
+>>>>>>> Stashed changes
 
 [sub_resource type="ConvexPolygonShape2D" id=1]
 points = PoolVector2Array( 0, 0, 64, 0, 64, 65, 0, 65 )
@@ -20,6 +28,9 @@ points = PoolVector2Array( 0, 0, 65, 0, 65, 63, 0, 63 )
 
 [sub_resource type="ConvexPolygonShape2D" id=3]
 points = PoolVector2Array( 3, 2, 74, 4, 61, 40, 52, 12, 38, 38, 25, 13, 16, 37, 10, 18 )
+
+[sub_resource type="ConvexPolygonShape2D" id=6]
+points = PoolVector2Array( 64, 66.875, 0, 66.875, 0, 1.875, 64, 1.875 )
 
 [sub_resource type="TileSet" id=4]
 0/name = "HIVERN.png 0"
@@ -158,9 +169,16 @@ points = PoolVector2Array( 3, 2, 74, 4, 61, 40, 52, 12, 38, 38, 25, 13, 16, 37, 
 7/navigation_offset = Vector2( 0, 0 )
 7/shape_offset = Vector2( 0, 0 )
 7/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+7/shape = SubResource( 6 )
 7/shape_one_way = false
-7/shape_one_way_margin = 0.0
-7/shapes = [  ]
+7/shape_one_way_margin = 1.0
+7/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 6 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 7/z_index = 0
 
 [node name="Nivell2" type="Node2D"]
@@ -185,6 +203,11 @@ texture = ExtResource( 7 )
 position = Vector2( 1249.43, 15.2945 )
 scale = Vector2( 1, 1 )
 texture = ExtResource( 7 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 2840, -210 )
+scale = Vector2( 5.95215, 3.74902 )
+texture = ExtResource( 5 )
 
 [node name="TileMap" type="TileMap" parent="."]
 position = Vector2( 12138, 237 )
