@@ -1,8 +1,8 @@
 extends KinematicBody2D
 
-var velocitat := 900
+var velocitat := 1000
 var moviment := Vector2.ZERO
-var gravetat := Vector2.DOWN * 3000
+var gravetat := Vector2.DOWN * 3700
 var salt :=Vector2.UP * 1500
 var caramels = 0
 # Declare member variables here. Examples:
@@ -12,7 +12,7 @@ var caramels = 0
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	pass
+	Global.Jugador = self
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -44,5 +44,15 @@ func agafa_candy():
 
 
 func _on_matar_halloween_body_entered(body):
+	if body.is_in_group("Personatge"):
+		get_tree().reload_current_scene() 
+
+
+func _on_Fantasma_body_entered(body):
+	if body.is_in_group("Personatge"):
+		get_tree().reload_current_scene() 
+
+
+func _on_diablo_body_entered(body):
 	if body.is_in_group("Personatge"):
 		get_tree().reload_current_scene() 

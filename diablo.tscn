@@ -1,16 +1,17 @@
 [gd_scene load_steps=3 format=2]
 
-[ext_resource path="res://carnivora.png" type="Texture" id=1]
-
+[ext_resource path="res://diablo.png" type="Texture" id=1]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 12, 12 )
+extents = Vector2( 64.75, 75.25 )
 
-[node name="Area2D" type="Area2D"]
+[node name="Node2D" type="Area2D"]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( -6.25, 10.25 )
 shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="."]
-scale = Vector2( 0.0266667, 0.0278422 )
+position = Vector2( -1, 4 )
+scale = Vector2( 0.228261, 0.276442 )
 texture = ExtResource( 1 )
