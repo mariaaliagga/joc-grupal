@@ -34,30 +34,6 @@ margin_top = -244.0
 margin_right = 152.0
 margin_bottom = 252.0
 
-<<<<<<< HEAD
-[node name="N1" type="Button" parent="VBoxContainer"]
-margin_top = 100.0
-margin_right = 248.0
-text = "N1: PASCUA"
-
-[node name="N2" type="Button" parent="VBoxContainer"]
-margin_top = 200.0
-margin_right = 248.0
-margin_bottom = 20.0
-text = "N2: NADAL"
-
-[node name="N3" type="Button" parent="VBoxContainer"]
-margin_top = 300.0
-margin_right = 248.0
-margin_bottom = 68.0
-text = "N3: HALLOWEEN"
-
-[node name="INSTRUCCIONS" type="Button" parent="VBoxContainer"]
-margin_top = 400.0
-margin_right = 248.0
-margin_bottom = 100.0
-text = "N3: INSTRUCCIONS"
-=======
 [node name="N1 PRIMAVERA" type="TextureButton" parent="VBoxContainer"]
 margin_right = 625.0
 margin_bottom = 168.0
@@ -105,4 +81,3 @@ margin_bottom = 226.0
 custom_colors/font_color = Color( 0.901961, 0.0862745, 0.0470588, 1 )
 custom_fonts/font = SubResource( 3 )
 text = "NIVELL 3: HALLOWEEN"
->>>>>>> 8d4df9f7adb62af9e7ac3a3843fe9477997d4189
