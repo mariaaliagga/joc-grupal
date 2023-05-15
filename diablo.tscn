@@ -3,12 +3,12 @@
 [ext_resource path="res://diablo.png" type="Texture" id=1]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 64.75, 75.25 )
+extents = Vector2( 40.5, 65.75 )
 
 [node name="Node2D" type="Area2D"]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( -6.25, 10.25 )
+position = Vector2( 15.5, 19.75 )
 shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="."]
