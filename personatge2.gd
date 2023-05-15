@@ -53,3 +53,4 @@ func _on_aigua_body_entered(body):
 func _on_penguin_body_entered(body):
 	if body.is_in_group("Personatge"):
 		get_tree().reload_current_scene()
+
