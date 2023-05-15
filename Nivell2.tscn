@@ -1,21 +1,14 @@
-<<<<<<< Updated upstream
 [gd_scene load_steps=14 format=2]
-=======
-[gd_scene load_steps=12 format=2]
->>>>>>> Stashed changes
 
 [ext_resource path="res://Tiles/HIVERN.png" type="Texture" id=1]
 [ext_resource path="res://Tiles/punxes gel.png" type="Texture" id=2]
 [ext_resource path="res://personatge2.tscn" type="PackedScene" id=3]
 [ext_resource path="res://aigua.tscn" type="PackedScene" id=4]
-<<<<<<< Updated upstream
 [ext_resource path="res://candy.tscn" type="PackedScene" id=5]
 [ext_resource path="res://penguin.tscn" type="PackedScene" id=6]
 [ext_resource path="res://fondo-nieve-cielo_23-2148390000.avif (1).png" type="Texture" id=7]
 [ext_resource path="res://images (2).png" type="Texture" id=8]
-=======
-[ext_resource path="res://backgroundForest.png" type="Texture" id=5]
->>>>>>> Stashed changes
+[ext_resource path="res://backgroundForest.png" type="Texture" id=9]
 
 [sub_resource type="ConvexPolygonShape2D" id=1]
 points = PoolVector2Array( 0, 0, 64, 0, 64, 65, 0, 65 )
@@ -194,7 +187,6 @@ position = Vector2( 1498.43, -278.867 )
 scale = Vector2( 6.44865, 5.36658 )
 texture = ExtResource( 7 )
 
-<<<<<<< HEAD
 [node name="fons3" type="Sprite" parent="."]
 position = Vector2( 9004.85, -284.799 )
 scale = Vector2( 6.81344, 5.65819 )
@@ -228,14 +220,14 @@ texture = ExtResource( 7 )
 [node name="fons7" type="Sprite" parent="."]
 position = Vector2( 28849, -248 )
 scale = Vector2( -6.449, 5.367 )
-=======
+texture = ExtResource( 7 )
+
 [node name="Sprite2" type="Sprite" parent="fons"]
 position = Vector2( 624.508, 3.75619 )
 texture = ExtResource( 7 )
 
 [node name="Sprite3" type="Sprite" parent="fons"]
 position = Vector2( 1249.43, 15.2945 )
->>>>>>> c5569dfeaaa8a44f416a56bfd65e3c9383d2a2c2
 texture = ExtResource( 7 )
 
 [node name="Sprite" type="Sprite" parent="."]
