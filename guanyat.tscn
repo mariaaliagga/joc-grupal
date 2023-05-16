@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=2]
+
+[sub_resource type="DynamicFontData" id=1]
+font_path = "res://EasterBunnyPersonalUse.ttf"
+
+[sub_resource type="DynamicFont" id=2]
+size = 15
+font_data = SubResource( 1 )
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+margin_left = 4.0
+margin_top = 1.0
+margin_right = 170.0
+margin_bottom = 49.0
+rect_clip_content = false
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "[wave amp=35][rainbow]HAS GUANYAT!!"
+text = "HAS GUANYAT!!"

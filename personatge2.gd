@@ -2,7 +2,7 @@ extends KinematicBody2D
 
 var velocitat := 400
 var moviment := Vector2.ZERO
-var gravetat := Vector2.DOWN * 1700
+var gravetat := Vector2.DOWN * 1600
 var salt :=Vector2.UP * 700
 var contador := 0
 var caramels := 0

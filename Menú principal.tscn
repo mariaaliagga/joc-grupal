@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://EasterBunnyPersonalUse.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://single spring button 2.jpg" type="Texture" id=2]
@@ -6,6 +6,7 @@
 [ext_resource path="res://but2.gd" type="Script" id=4]
 [ext_resource path="res://BUT1.gd" type="Script" id=5]
 [ext_resource path="res://images (2).png" type="Texture" id=6]
+[ext_resource path="res://titol.tscn" type="PackedScene" id=7]
 
 [sub_resource type="DynamicFont" id=2]
 size = 100
@@ -30,19 +31,19 @@ margin_right = 8.0
 margin_bottom = 8.0
 
 [node name="fons" type="Sprite" parent="."]
-position = Vector2( 1432, 608 )
+position = Vector2( 1433, 608 )
 scale = Vector2( 27.75, 11.8153 )
 texture = ExtResource( 6 )
 
 [node name="VBoxContainer1" type="VBoxContainer" parent="."]
 anchor_left = 0.321
-anchor_top = 0.26
-anchor_right = 0.672
+anchor_top = 0.213
+anchor_right = 0.822
 anchor_bottom = 0.351
-margin_left = 0.293976
-margin_top = -0.100006
-margin_right = 0.00793457
-margin_bottom = -100.27
+margin_left = 0.0639954
+margin_top = 17.24
+margin_right = 0.247986
+margin_bottom = 1.48
 
 [node name="BUT1" type="Sprite" parent="VBoxContainer1"]
 position = Vector2( 203, 19.9 )
@@ -139,6 +140,12 @@ margin_bottom = 77.6414
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 4 )
 text = "NIVELL 3: HALLOWEEN"
+
+[node name="Control" parent="." instance=ExtResource( 7 )]
+margin_left = 464.0
+margin_top = -18.0
+margin_right = 26.0
+margin_bottom = -428.0
 
 [connection signal="pressed" from="VBoxContainer1/BUT1/N1" to="VBoxContainer1/BUT1/N1" method="_on_N1_pressed"]
 [connection signal="pressed" from="VBoxContainer2/BUT2/N2" to="VBoxContainer2/BUT2/N2" method="_on_N2_pressed"]
