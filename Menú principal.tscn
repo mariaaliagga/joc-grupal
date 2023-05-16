@@ -95,7 +95,6 @@ script = ExtResource( 4 )
 
 [node name="BUT3" type="Sprite" parent="VBoxContainer2/BUT2"]
 position = Vector2( -42.6119, 0 )
-scale = Vector2( 1, 1 )
 texture = ExtResource( 2 )
 
 [node name="Label3" type="Label" parent="VBoxContainer2/BUT2"]

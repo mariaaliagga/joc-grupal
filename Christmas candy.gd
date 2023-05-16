@@ -16,5 +16,6 @@ func _ready():
 
 
 func _on_halloween_candy_body_entered(body):
-	body.agafa_candy()
-	queue_free()
+	if body.is_in_group('Personatge'):
+		body.agafa_candy()
+		queue_free()

@@ -5,19 +5,12 @@ var moviment := Vector2.ZERO
 var gravetat := Vector2.DOWN * 1700
 var salt :=Vector2.UP * 700
 var contador := 0
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
+var caramels := 0
 
-
-# Called when the node enters the scene tree for the first time.
 func _ready():
 	position = Vector2(0,0)
 
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
 func _process(delta):
 	moviment += gravetat*delta
 	moviment.x = velocitat
@@ -38,9 +31,10 @@ func anima(velocitat):
 	$AnimatedSprite.flip_h = false
 
 func agafa_candy():
-	#lol
+	caramels += 1
+	Global.LabelCaramels.text = str(caramels)
 	
-	pass
+
 
 func _on_aigua_body_entered(body):
 	if body.is_in_group("Personatge"):

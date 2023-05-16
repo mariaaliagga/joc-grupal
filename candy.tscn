@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Christmas-umbrella-candy-kc3ed.png" type="Texture" id=1]
-[ext_resource path="res://halloween candy.gd" type="Script" id=2]
+[ext_resource path="res://Halloweencandy.gd" type="Script" id=2]
 
 [sub_resource type="RectangleShape2D" id=2]
 extents = Vector2( 48, 90 )
@@ -53,7 +53,7 @@ tracks/1/keys = {
 "times": PoolRealArray( 0, 0.5, 1 )
 }
 
-[node name="Area2D" type="Area2D"]
+[node name="Christmas candy" type="Area2D"]
 scale = Vector2( 0.35, 0.3 )
 script = ExtResource( 2 )
 

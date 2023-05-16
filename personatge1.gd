@@ -4,6 +4,7 @@ var velocitat := 145
 var moviment := Vector2.ZERO
 var gravetat := Vector2.DOWN * 1600
 var salt :=Vector2.UP * 500
+var caramels:= 0
 
 # Declare member variables here. Examples:
 # var a = 2
@@ -40,7 +41,9 @@ func _on_Punxes_body_entered(body):
 		get_tree().reload_current_scene()
 
 func agafa_ou():
-	pass
+	caramels += 1
+	Global.LabelCaramels.text = str(caramels)
+	
 
 
 func _on_carnvora_body_entered(body):
@@ -50,9 +53,7 @@ func _on_carnvora_body_entered(body):
 
 func _on_trofeo_body_entered(body):
 	if body.is_in_group('Personatge'):
-		velocitat = 0
-		get_tree().reload_current_scene()
-	
+		get_tree().change_scene("res://Menú principal.tscn")
 		
 		
 
