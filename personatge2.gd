@@ -54,7 +54,8 @@ func _on_penguin_body_entered(body):
 	if body.is_in_group("Personatge"):
 		get_tree().reload_current_scene()
 		
-		
-		
-		
-		
+
+
+func _on_trofeo_body_entered(body):
+	if body.is_in_group("Personatge"):
+		get_tree().change_scene("res://Menú principal.tscn")
