@@ -79,7 +79,6 @@ points = PoolVector2Array( 0, -42, 18, -42, 18, -42, 0, -42 )
 points = PoolVector2Array( 0, 0, 18, 0, 18, 18, 0, 18 )
 
 [sub_resource type="StreamTexture" id=49]
-flags = 4
 load_path = "res://.import/primavera.png-9de90dad64fc679714b8edde1a5cd6e5.stex"
 
 [sub_resource type="ConvexPolygonShape2D" id=31]
