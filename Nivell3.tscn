@@ -195,7 +195,7 @@ scale = Vector2( 3.762, 3.28333 )
 texture = ExtResource( 10 )
 
 [node name="bg24" type="Sprite" parent="."]
-position = Vector2( -1752, 1136 )
+position = Vector2( -1784, 1120 )
 scale = Vector2( 3.762, 3.28333 )
 texture = ExtResource( 10 )
 
@@ -206,12 +206,12 @@ position = Vector2( -81184, -5536 )
 position = Vector2( -33941, -5485 )
 
 [node name="Bg final abans de underground" type="Sprite" parent="."]
-position = Vector2( -34130, -30.7039 )
+position = Vector2( -34144, 248 )
 scale = Vector2( 8.4793, 7.29352 )
 texture = ExtResource( 4 )
 
 [node name="Bg sprite" type="Sprite" parent="."]
-position = Vector2( -52922, 140.296 )
+position = Vector2( -52920, 192 )
 scale = Vector2( 8.4793, 7.02116 )
 texture = ExtResource( 4 )
 
@@ -256,13 +256,13 @@ scale = Vector2( 2.03021, 2.22964 )
 texture = ExtResource( 5 )
 
 [node name="Fons negre" type="Sprite" parent="."]
-position = Vector2( -45840, 5096 )
+position = Vector2( -45816, 4736 )
 scale = Vector2( 63.28, 45.5417 )
 texture = ExtResource( 6 )
 
 [node name="Fons negre4" type="Sprite" parent="."]
-position = Vector2( -34252, 872 )
-scale = Vector2( 16.1867, 0.857143 )
+position = Vector2( -34296, 728 )
+scale = Vector2( 16.6733, 1.42857 )
 texture = ExtResource( 6 )
 
 [node name="Fons negre2" type="Sprite" parent="."]
@@ -281,19 +281,24 @@ scale = Vector2( 63.28, 45.5417 )
 texture = ExtResource( 6 )
 
 [node name="Sprite" type="Sprite" parent="."]
-position = Vector2( -48210, 81.2961 )
+position = Vector2( -48232, 192 )
 scale = Vector2( 8.4793, 7.02116 )
 texture = ExtResource( 4 )
 
 [node name="Sprite4" type="Sprite" parent="."]
-position = Vector2( -38810, 2.29614 )
+position = Vector2( -38864, 208 )
 scale = Vector2( 8.4793, 7.02116 )
 texture = ExtResource( 4 )
 
 [node name="Sprite5" type="Sprite" parent="."]
-position = Vector2( -43522, 36.2961 )
+position = Vector2( -43528, 168 )
 scale = Vector2( 8.4793, 7.02116 )
 texture = ExtResource( 4 )
+
+[node name="fonbs negre" type="Sprite" parent="."]
+position = Vector2( -48048, 9720 )
+scale = Vector2( 78.0825, 108.521 )
+texture = ExtResource( 6 )
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource( 5 )
