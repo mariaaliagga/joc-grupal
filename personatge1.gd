@@ -51,11 +51,8 @@ func _on_carnvora_body_entered(body):
 func _on_trofeo_body_entered(body):
 	if body.is_in_group('Personatge'):
 		velocitat = 0
+		get_tree().reload_current_scene()
+	
 		
 		
-#	var velocitat := 0
-#	var moviment := Vector2.ZERO
-#	if body.is_in_group('Personatge'):
-##		moviment += salt
-#
-#		moviment = move_and_collide(velocitat)
+

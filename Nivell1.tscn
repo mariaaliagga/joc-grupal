@@ -445,8 +445,8 @@ points = PoolVector2Array( 0, 0, 18, 0, 18, 18, 0, 18 )
 position = Vector2( -7, -511 )
 
 [node name="Sprite" type="Sprite" parent="."]
-position = Vector2( 356.375, 987 )
-scale = Vector2( 2.60417, 3.14806 )
+position = Vector2( 467.344, 951 )
+scale = Vector2( 3.43771, 4.66136 )
 texture = ExtResource( 6 )
 
 [node name="Sprite2" type="Sprite" parent="Sprite"]
@@ -483,56 +483,6 @@ texture = ExtResource( 6 )
 
 [node name="Sprite8" type="Sprite" parent="Sprite"]
 position = Vector2( 1943.56, 1.52727 )
-scale = Vector2( 1, 1.00909 )
-texture = ExtResource( 6 )
-
-[node name="Sprite9" type="Sprite" parent="Sprite"]
-position = Vector2( 2223.31, 1.52727 )
-scale = Vector2( 1, 1.00909 )
-texture = ExtResource( 6 )
-
-[node name="Sprite10" type="Sprite" parent="Sprite"]
-position = Vector2( 2503.07, 1.52588e-05 )
-scale = Vector2( 1, 1.00909 )
-texture = ExtResource( 6 )
-
-[node name="Sprite11" type="Sprite" parent="Sprite"]
-position = Vector2( 2782.82, 1.52588e-05 )
-scale = Vector2( 1, 1.00909 )
-texture = ExtResource( 6 )
-
-[node name="Sprite12" type="Sprite" parent="Sprite"]
-position = Vector2( 3062.58, 1.52588e-05 )
-scale = Vector2( 1, 1.00909 )
-texture = ExtResource( 6 )
-
-[node name="Sprite13" type="Sprite" parent="Sprite"]
-position = Vector2( 3342.33, 1.52588e-05 )
-scale = Vector2( 1, 1.00909 )
-texture = ExtResource( 6 )
-
-[node name="Sprite14" type="Sprite" parent="Sprite"]
-position = Vector2( 3622.09, 1.52588e-05 )
-scale = Vector2( 1, 1.00909 )
-texture = ExtResource( 6 )
-
-[node name="Sprite15" type="Sprite" parent="Sprite"]
-position = Vector2( 3894.48, 1.52588e-05 )
-scale = Vector2( 1, 1.00909 )
-texture = ExtResource( 6 )
-
-[node name="Sprite16" type="Sprite" parent="Sprite"]
-position = Vector2( 4174.23, 1.52588e-05 )
-scale = Vector2( 1, 1.00909 )
-texture = ExtResource( 6 )
-
-[node name="Sprite17" type="Sprite" parent="Sprite"]
-position = Vector2( 4446.63, 1.52588e-05 )
-scale = Vector2( 1, 1.00909 )
-texture = ExtResource( 6 )
-
-[node name="Sprite18" type="Sprite" parent="Sprite"]
-position = Vector2( 4726.38, 1.52588e-05 )
 scale = Vector2( 1, 1.00909 )
 texture = ExtResource( 6 )
 
