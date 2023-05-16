@@ -75,7 +75,6 @@ points = PoolVector2Array( 0, -42, 18, -42, 18, -42, 0, -42 )
 points = PoolVector2Array( 0, 0, 18, 0, 18, 18, 0, 18 )
 
 [sub_resource type="StreamTexture" id=49]
-flags = 4
 load_path = "res://.import/primavera.png-9de90dad64fc679714b8edde1a5cd6e5.stex"
 
 [sub_resource type="ConvexPolygonShape2D" id=31]
@@ -1010,7 +1009,7 @@ position = Vector2( 4040, 0 )
 position = Vector2( 4552, -96 )
 
 [node name="trofeo" parent="." instance=ExtResource( 7 )]
-position = Vector2( 261, 1062 )
+position = Vector2( 5327, 967 )
 
 [connection signal="body_entered" from="Punxes" to="KinematicBody2D" method="_on_Punxes_body_entered"]
 [connection signal="body_entered" from="Punxes/Punxes2" to="KinematicBody2D" method="_on_Punxes_body_entered"]
