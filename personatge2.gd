@@ -9,6 +9,7 @@ var caramels := 0
 
 func _ready():
 	position = Vector2(0,0)
+	
 
 
 func _process(delta):
