@@ -62,3 +62,5 @@ func _on_diablo_body_entered(body):
 func _on_trofeo_body_entered(body):
 	if body.is_in_group("Personatge"):
 		get_tree().change_scene("res://Menú principal.tscn") 
+		
+	
